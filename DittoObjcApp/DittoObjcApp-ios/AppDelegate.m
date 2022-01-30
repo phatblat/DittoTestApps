@@ -1,14 +1,12 @@
 //
 //  AppDelegate.m
-//  DittoApp-ios
+//  DittoObjcApp-ios
 //
 //  Created by Ben Chatelain on 1/29/22.
 //
 
 #import "AppDelegate.h"
-
 @import DittoObjC;
-//#import <DittoObjC/DittoObjC.h>
 
 @interface AppDelegate ()
 
@@ -21,10 +19,6 @@
 
     DITDitto *ditto = [[DITDitto alloc] init];
     NSError *error = nil;
-
-//    if (![ditto setLicenseToken:@"" error:&error]) {
-//      NSLog(@"Error setting license token: %@", error);
-//    }
 
     if (![ditto tryStartSync:&error]) {
       NSLog(@"Error starting sync: %@", error);

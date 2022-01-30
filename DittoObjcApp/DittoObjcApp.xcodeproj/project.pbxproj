@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F84E9CE027A62C3200CFF53C /* DittoApp-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DittoApp-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84E9CE027A62C3200CFF53C /* DittoObjcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DittoObjcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84E9CE327A62C3200CFF53C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F84E9CE427A62C3200CFF53C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F84E9CE627A62C3200CFF53C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -50,9 +50,9 @@
 		F84E9CF227A62C3400CFF53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F84E9CF427A62C3400CFF53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F84E9CF527A62C3400CFF53C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F84E9CFB27A62C3500CFF53C /* DittoApp-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DittoApp-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84E9CFB27A62C3500CFF53C /* DittoObjcAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DittoObjcAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84E9CFF27A62C3500CFF53C /* DittoApp_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoApp_iosTests.m; sourceTree = "<group>"; };
-		F84E9D0527A62C3500CFF53C /* DittoApp-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DittoApp-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84E9D0527A62C3500CFF53C /* DittoObjcAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DittoObjcAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84E9D0927A62C3500CFF53C /* DittoApp_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoApp_iosUITests.m; sourceTree = "<group>"; };
 		F84E9D0B27A62C3500CFF53C /* DittoApp_iosUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoApp_iosUITestsLaunchTests.m; sourceTree = "<group>"; };
 		F84E9D1B27A6376A00CFF53C /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		F84E9CD727A62C3200CFF53C = {
 			isa = PBXGroup;
 			children = (
-				F84E9CE227A62C3200CFF53C /* DittoApp-ios */,
-				F84E9CFE27A62C3500CFF53C /* DittoApp-iosTests */,
-				F84E9D0827A62C3500CFF53C /* DittoApp-iosUITests */,
+				F84E9CE227A62C3200CFF53C /* DittoObjcApp-ios */,
+				F84E9CFE27A62C3500CFF53C /* DittoObjcApp-iosTests */,
+				F84E9D0827A62C3500CFF53C /* DittoObjcApp-iosUITests */,
 				F84E9CE127A62C3200CFF53C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,14 +97,14 @@
 		F84E9CE127A62C3200CFF53C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F84E9CE027A62C3200CFF53C /* DittoApp-ios.app */,
-				F84E9CFB27A62C3500CFF53C /* DittoApp-iosTests.xctest */,
-				F84E9D0527A62C3500CFF53C /* DittoApp-iosUITests.xctest */,
+				F84E9CE027A62C3200CFF53C /* DittoObjcApp.app */,
+				F84E9CFB27A62C3500CFF53C /* DittoObjcAppTests.xctest */,
+				F84E9D0527A62C3500CFF53C /* DittoObjcAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F84E9CE227A62C3200CFF53C /* DittoApp-ios */ = {
+		F84E9CE227A62C3200CFF53C /* DittoObjcApp-ios */ = {
 			isa = PBXGroup;
 			children = (
 				F84E9CE327A62C3200CFF53C /* AppDelegate.h */,
@@ -120,32 +120,32 @@
 				F84E9CE927A62C3200CFF53C /* ViewController.h */,
 				F84E9CEA27A62C3200CFF53C /* ViewController.m */,
 			);
-			path = "DittoApp-ios";
+			path = "DittoObjcApp-ios";
 			sourceTree = "<group>";
 		};
-		F84E9CFE27A62C3500CFF53C /* DittoApp-iosTests */ = {
+		F84E9CFE27A62C3500CFF53C /* DittoObjcApp-iosTests */ = {
 			isa = PBXGroup;
 			children = (
 				F84E9CFF27A62C3500CFF53C /* DittoApp_iosTests.m */,
 			);
-			path = "DittoApp-iosTests";
+			path = "DittoObjcApp-iosTests";
 			sourceTree = "<group>";
 		};
-		F84E9D0827A62C3500CFF53C /* DittoApp-iosUITests */ = {
+		F84E9D0827A62C3500CFF53C /* DittoObjcApp-iosUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F84E9D0927A62C3500CFF53C /* DittoApp_iosUITests.m */,
 				F84E9D0B27A62C3500CFF53C /* DittoApp_iosUITestsLaunchTests.m */,
 			);
-			path = "DittoApp-iosUITests";
+			path = "DittoObjcApp-iosUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F84E9CDF27A62C3200CFF53C /* DittoApp-ios */ = {
+		F84E9CDF27A62C3200CFF53C /* DittoObjcApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F84E9D0F27A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-ios" */;
+			buildConfigurationList = F84E9D0F27A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoObjcApp" */;
 			buildPhases = (
 				F84E9CDC27A62C3200CFF53C /* Sources */,
 				F84E9CDD27A62C3200CFF53C /* Frameworks */,
@@ -155,17 +155,17 @@
 			);
 			dependencies = (
 			);
-			name = "DittoApp-ios";
+			name = DittoObjcApp;
 			packageProductDependencies = (
 				F84E9D1927A62D3300CFF53C /* DittoObjC */,
 			);
 			productName = "DittoApp-ios";
-			productReference = F84E9CE027A62C3200CFF53C /* DittoApp-ios.app */;
+			productReference = F84E9CE027A62C3200CFF53C /* DittoObjcApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F84E9CFA27A62C3500CFF53C /* DittoApp-iosTests */ = {
+		F84E9CFA27A62C3500CFF53C /* DittoObjcAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F84E9D1227A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-iosTests" */;
+			buildConfigurationList = F84E9D1227A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoObjcAppTests" */;
 			buildPhases = (
 				F84E9CF727A62C3500CFF53C /* Sources */,
 				F84E9CF827A62C3500CFF53C /* Frameworks */,
@@ -176,14 +176,14 @@
 			dependencies = (
 				F84E9CFD27A62C3500CFF53C /* PBXTargetDependency */,
 			);
-			name = "DittoApp-iosTests";
+			name = DittoObjcAppTests;
 			productName = "DittoApp-iosTests";
-			productReference = F84E9CFB27A62C3500CFF53C /* DittoApp-iosTests.xctest */;
+			productReference = F84E9CFB27A62C3500CFF53C /* DittoObjcAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F84E9D0427A62C3500CFF53C /* DittoApp-iosUITests */ = {
+		F84E9D0427A62C3500CFF53C /* DittoObjcAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F84E9D1527A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-iosUITests" */;
+			buildConfigurationList = F84E9D1527A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoObjcAppUITests" */;
 			buildPhases = (
 				F84E9D0127A62C3500CFF53C /* Sources */,
 				F84E9D0227A62C3500CFF53C /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				F84E9D0727A62C3500CFF53C /* PBXTargetDependency */,
 			);
-			name = "DittoApp-iosUITests";
+			name = DittoObjcAppUITests;
 			productName = "DittoApp-iosUITests";
-			productReference = F84E9D0527A62C3500CFF53C /* DittoApp-iosUITests.xctest */;
+			productReference = F84E9D0527A62C3500CFF53C /* DittoObjcAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F84E9CDB27A62C3200CFF53C /* Build configuration list for PBXProject "DittoApp-ios" */;
+			buildConfigurationList = F84E9CDB27A62C3200CFF53C /* Build configuration list for PBXProject "DittoObjcApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F84E9CDF27A62C3200CFF53C /* DittoApp-ios */,
-				F84E9CFA27A62C3500CFF53C /* DittoApp-iosTests */,
-				F84E9D0427A62C3500CFF53C /* DittoApp-iosUITests */,
+				F84E9CDF27A62C3200CFF53C /* DittoObjcApp */,
+				F84E9CFA27A62C3500CFF53C /* DittoObjcAppTests */,
+				F84E9D0427A62C3500CFF53C /* DittoObjcAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,12 +305,12 @@
 /* Begin PBXTargetDependency section */
 		F84E9CFD27A62C3500CFF53C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F84E9CDF27A62C3200CFF53C /* DittoApp-ios */;
+			target = F84E9CDF27A62C3200CFF53C /* DittoObjcApp */;
 			targetProxy = F84E9CFC27A62C3500CFF53C /* PBXContainerItemProxy */;
 		};
 		F84E9D0727A62C3500CFF53C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F84E9CDF27A62C3200CFF53C /* DittoApp-ios */;
+			target = F84E9CDF27A62C3200CFF53C /* DittoObjcApp */;
 			targetProxy = F84E9D0627A62C3500CFF53C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,7 +456,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZVHNFV8S8B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "DittoApp-ios/Info.plist";
+				INFOPLIST_FILE = "DittoObjcApp-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -467,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.DittoApp-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.DittoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,7 +483,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZVHNFV8S8B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "DittoApp-ios/Info.plist";
+				INFOPLIST_FILE = "DittoObjcApp-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -494,7 +494,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.DittoApp-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.DittoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,7 +515,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DittoApp-ios.app/DittoApp-ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DittoObjcApp.app/DittoObjcApp";
 			};
 			name = Debug;
 		};
@@ -533,7 +533,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DittoApp-ios.app/DittoApp-ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DittoObjcApp.app/DittoObjcApp";
 			};
 			name = Release;
 		};
@@ -572,7 +572,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F84E9CDB27A62C3200CFF53C /* Build configuration list for PBXProject "DittoApp-ios" */ = {
+		F84E9CDB27A62C3200CFF53C /* Build configuration list for PBXProject "DittoObjcApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F84E9D0D27A62C3500CFF53C /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F84E9D0F27A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-ios" */ = {
+		F84E9D0F27A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoObjcApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F84E9D1027A62C3500CFF53C /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F84E9D1227A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-iosTests" */ = {
+		F84E9D1227A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoObjcAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F84E9D1327A62C3500CFF53C /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F84E9D1527A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-iosUITests" */ = {
+		F84E9D1527A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoObjcAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F84E9D1627A62C3500CFF53C /* Debug */,

@@ -1,11 +1,11 @@
 //
 //  SceneDelegate.h
-//  DittoApp-ios
+//  DittoObjcApp-ios
 //
 //  Created by Ben Chatelain on 1/29/22.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
 

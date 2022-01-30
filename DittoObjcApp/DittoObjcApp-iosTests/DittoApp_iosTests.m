@@ -1,17 +1,17 @@
 //
-//  DittoApp_iosTests.m
-//  DittoApp-iosTests
+//  DittoObjcApp_iosTests.m
+//  DittoObjcApp-iosTests
 //
 //  Created by Ben Chatelain on 1/29/22.
 //
 
-#import <XCTest/XCTest.h>
+@import XCTest;
 
-@interface DittoApp_iosTests : XCTestCase
+@interface DittoObjcApp_iosTests : XCTestCase
 
 @end
 
-@implementation DittoApp_iosTests
+@implementation DittoObjcApp_iosTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

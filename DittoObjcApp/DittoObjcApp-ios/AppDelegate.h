@@ -1,11 +1,11 @@
 //
 //  AppDelegate.h
-//  DittoApp-ios
+//  DittoObjcApp-ios
 //
 //  Created by Ben Chatelain on 1/29/22.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

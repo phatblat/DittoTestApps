@@ -1,12 +1,12 @@
 //
 //  main.m
-//  DittoApp-ios
+//  DittoObjcApp-ios
 //
 //  Created by Ben Chatelain on 1/29/22.
 //
 
-#import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+@import UIKit;
 
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;

@@ -1,17 +1,17 @@
 //
-//  DittoApp_iosUITestsLaunchTests.m
-//  DittoApp-iosUITests
+//  DittoObjcApp_iosUITestsLaunchTests.m
+//  DittoObjcApp-iosUITests
 //
 //  Created by Ben Chatelain on 1/29/22.
 //
 
-#import <XCTest/XCTest.h>
+@import XCTest;
 
-@interface DittoApp_iosUITestsLaunchTests : XCTestCase
+@interface DittoObjcApp_iosUITestsLaunchTests : XCTestCase
 
 @end
 
-@implementation DittoApp_iosUITestsLaunchTests
+@implementation DittoObjcApp_iosUITestsLaunchTests
 
 + (BOOL)runsForEachTargetApplicationUIConfiguration {
     return YES;
