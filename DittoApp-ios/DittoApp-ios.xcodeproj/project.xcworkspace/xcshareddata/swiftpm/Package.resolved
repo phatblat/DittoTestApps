@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "dittoobjc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/getditto/DittoObjC",
+      "state" : {
+        "revision" : "fecfc5d95abef1d04aa966ce156a11d97809788a",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
