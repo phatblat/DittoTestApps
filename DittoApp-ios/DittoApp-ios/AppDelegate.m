@@ -7,6 +7,9 @@
 
 #import "AppDelegate.h"
 
+@import DittoObjC;
+//#import <DittoObjC/DittoObjC.h>
+
 @interface AppDelegate ()
 
 @end
@@ -15,7 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    DITDitto *ditto = [[DITDitto alloc] init];
+    NSError *error = nil;
+
+//    if (![ditto setLicenseToken:@"" error:&error]) {
+//      NSLog(@"Error setting license token: %@", error);
+//    }
+
+    if (![ditto tryStartSync:&error]) {
+      NSLog(@"Error starting sync: %@", error);
+    }
+
     return YES;
 }
 
