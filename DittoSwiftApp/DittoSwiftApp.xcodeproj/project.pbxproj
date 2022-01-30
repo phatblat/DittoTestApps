@@ -51,6 +51,7 @@
 		F84E9D5427A6FF7100CFF53C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F84E9D5627A6FFDF00CFF53C /* DittoPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DittoPublisher.swift; sourceTree = "<group>"; };
 		F84E9D5B27A7029E00CFF53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F84E9D5D27A7141A00CFF53C /* DittoSwift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DittoSwift; path = ../../DittoSwift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		F84E9D1C27A6F97F00CFF53C = {
 			isa = PBXGroup;
 			children = (
+				F84E9D5C27A7141A00CFF53C /* Packages */,
 				F84E9D2727A6F97F00CFF53C /* DittoSwiftApp */,
 				F84E9D3827A6F98100CFF53C /* DittoSwiftAppTests */,
 				F84E9D4227A6F98100CFF53C /* DittoSwiftAppUITests */,
@@ -137,6 +139,14 @@
 				F84E9D4527A6F98100CFF53C /* DittoSwiftAppUITestsLaunchTests.swift */,
 			);
 			path = DittoSwiftAppUITests;
+			sourceTree = "<group>";
+		};
+		F84E9D5C27A7141A00CFF53C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F84E9D5D27A7141A00CFF53C /* DittoSwift */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
