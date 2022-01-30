@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F84E9CE527A62C3200CFF53C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E9CE427A62C3200CFF53C /* AppDelegate.m */; };
+		F84E9CE827A62C3200CFF53C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E9CE727A62C3200CFF53C /* SceneDelegate.m */; };
+		F84E9CEB27A62C3200CFF53C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E9CEA27A62C3200CFF53C /* ViewController.m */; };
+		F84E9CEE27A62C3200CFF53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84E9CEC27A62C3200CFF53C /* Main.storyboard */; };
+		F84E9CF027A62C3400CFF53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84E9CEF27A62C3400CFF53C /* Assets.xcassets */; };
+		F84E9CF327A62C3400CFF53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84E9CF127A62C3400CFF53C /* LaunchScreen.storyboard */; };
+		F84E9CF627A62C3400CFF53C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E9CF527A62C3400CFF53C /* main.m */; };
+		F84E9D0027A62C3500CFF53C /* DittoApp_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E9CFF27A62C3500CFF53C /* DittoApp_iosTests.m */; };
+		F84E9D0A27A62C3500CFF53C /* DittoApp_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E9D0927A62C3500CFF53C /* DittoApp_iosUITests.m */; };
+		F84E9D0C27A62C3500CFF53C /* DittoApp_iosUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E9D0B27A62C3500CFF53C /* DittoApp_iosUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F84E9CFC27A62C3500CFF53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84E9CD827A62C3200CFF53C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F84E9CDF27A62C3200CFF53C;
+			remoteInfo = "DittoApp-ios";
+		};
+		F84E9D0627A62C3500CFF53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84E9CD827A62C3200CFF53C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F84E9CDF27A62C3200CFF53C;
+			remoteInfo = "DittoApp-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F84E9CE027A62C3200CFF53C /* DittoApp-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DittoApp-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84E9CE327A62C3200CFF53C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F84E9CE427A62C3200CFF53C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F84E9CE627A62C3200CFF53C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F84E9CE727A62C3200CFF53C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F84E9CE927A62C3200CFF53C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F84E9CEA27A62C3200CFF53C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F84E9CED27A62C3200CFF53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F84E9CEF27A62C3400CFF53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F84E9CF227A62C3400CFF53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F84E9CF427A62C3400CFF53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84E9CF527A62C3400CFF53C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F84E9CFB27A62C3500CFF53C /* DittoApp-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DittoApp-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84E9CFF27A62C3500CFF53C /* DittoApp_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoApp_iosTests.m; sourceTree = "<group>"; };
+		F84E9D0527A62C3500CFF53C /* DittoApp-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DittoApp-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84E9D0927A62C3500CFF53C /* DittoApp_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoApp_iosUITests.m; sourceTree = "<group>"; };
+		F84E9D0B27A62C3500CFF53C /* DittoApp_iosUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoApp_iosUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F84E9CDD27A62C3200CFF53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84E9CF827A62C3500CFF53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84E9D0227A62C3500CFF53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F84E9CD727A62C3200CFF53C = {
+			isa = PBXGroup;
+			children = (
+				F84E9CE227A62C3200CFF53C /* DittoApp-ios */,
+				F84E9CFE27A62C3500CFF53C /* DittoApp-iosTests */,
+				F84E9D0827A62C3500CFF53C /* DittoApp-iosUITests */,
+				F84E9CE127A62C3200CFF53C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F84E9CE127A62C3200CFF53C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F84E9CE027A62C3200CFF53C /* DittoApp-ios.app */,
+				F84E9CFB27A62C3500CFF53C /* DittoApp-iosTests.xctest */,
+				F84E9D0527A62C3500CFF53C /* DittoApp-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F84E9CE227A62C3200CFF53C /* DittoApp-ios */ = {
+			isa = PBXGroup;
+			children = (
+				F84E9CE327A62C3200CFF53C /* AppDelegate.h */,
+				F84E9CE427A62C3200CFF53C /* AppDelegate.m */,
+				F84E9CE627A62C3200CFF53C /* SceneDelegate.h */,
+				F84E9CE727A62C3200CFF53C /* SceneDelegate.m */,
+				F84E9CE927A62C3200CFF53C /* ViewController.h */,
+				F84E9CEA27A62C3200CFF53C /* ViewController.m */,
+				F84E9CEC27A62C3200CFF53C /* Main.storyboard */,
+				F84E9CEF27A62C3400CFF53C /* Assets.xcassets */,
+				F84E9CF127A62C3400CFF53C /* LaunchScreen.storyboard */,
+				F84E9CF427A62C3400CFF53C /* Info.plist */,
+				F84E9CF527A62C3400CFF53C /* main.m */,
+			);
+			path = "DittoApp-ios";
+			sourceTree = "<group>";
+		};
+		F84E9CFE27A62C3500CFF53C /* DittoApp-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F84E9CFF27A62C3500CFF53C /* DittoApp_iosTests.m */,
+			);
+			path = "DittoApp-iosTests";
+			sourceTree = "<group>";
+		};
+		F84E9D0827A62C3500CFF53C /* DittoApp-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F84E9D0927A62C3500CFF53C /* DittoApp_iosUITests.m */,
+				F84E9D0B27A62C3500CFF53C /* DittoApp_iosUITestsLaunchTests.m */,
+			);
+			path = "DittoApp-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F84E9CDF27A62C3200CFF53C /* DittoApp-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84E9D0F27A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-ios" */;
+			buildPhases = (
+				F84E9CDC27A62C3200CFF53C /* Sources */,
+				F84E9CDD27A62C3200CFF53C /* Frameworks */,
+				F84E9CDE27A62C3200CFF53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DittoApp-ios";
+			productName = "DittoApp-ios";
+			productReference = F84E9CE027A62C3200CFF53C /* DittoApp-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F84E9CFA27A62C3500CFF53C /* DittoApp-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84E9D1227A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-iosTests" */;
+			buildPhases = (
+				F84E9CF727A62C3500CFF53C /* Sources */,
+				F84E9CF827A62C3500CFF53C /* Frameworks */,
+				F84E9CF927A62C3500CFF53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F84E9CFD27A62C3500CFF53C /* PBXTargetDependency */,
+			);
+			name = "DittoApp-iosTests";
+			productName = "DittoApp-iosTests";
+			productReference = F84E9CFB27A62C3500CFF53C /* DittoApp-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F84E9D0427A62C3500CFF53C /* DittoApp-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84E9D1527A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-iosUITests" */;
+			buildPhases = (
+				F84E9D0127A62C3500CFF53C /* Sources */,
+				F84E9D0227A62C3500CFF53C /* Frameworks */,
+				F84E9D0327A62C3500CFF53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F84E9D0727A62C3500CFF53C /* PBXTargetDependency */,
+			);
+			name = "DittoApp-iosUITests";
+			productName = "DittoApp-iosUITests";
+			productReference = F84E9D0527A62C3500CFF53C /* DittoApp-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F84E9CD827A62C3200CFF53C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F84E9CDF27A62C3200CFF53C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					F84E9CFA27A62C3500CFF53C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = F84E9CDF27A62C3200CFF53C;
+					};
+					F84E9D0427A62C3500CFF53C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = F84E9CDF27A62C3200CFF53C;
+					};
+				};
+			};
+			buildConfigurationList = F84E9CDB27A62C3200CFF53C /* Build configuration list for PBXProject "DittoApp-ios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F84E9CD727A62C3200CFF53C;
+			productRefGroup = F84E9CE127A62C3200CFF53C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F84E9CDF27A62C3200CFF53C /* DittoApp-ios */,
+				F84E9CFA27A62C3500CFF53C /* DittoApp-iosTests */,
+				F84E9D0427A62C3500CFF53C /* DittoApp-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F84E9CDE27A62C3200CFF53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84E9CF327A62C3400CFF53C /* LaunchScreen.storyboard in Resources */,
+				F84E9CF027A62C3400CFF53C /* Assets.xcassets in Resources */,
+				F84E9CEE27A62C3200CFF53C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84E9CF927A62C3500CFF53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84E9D0327A62C3500CFF53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F84E9CDC27A62C3200CFF53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84E9CEB27A62C3200CFF53C /* ViewController.m in Sources */,
+				F84E9CE527A62C3200CFF53C /* AppDelegate.m in Sources */,
+				F84E9CF627A62C3400CFF53C /* main.m in Sources */,
+				F84E9CE827A62C3200CFF53C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84E9CF727A62C3500CFF53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84E9D0027A62C3500CFF53C /* DittoApp_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84E9D0127A62C3500CFF53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84E9D0C27A62C3500CFF53C /* DittoApp_iosUITestsLaunchTests.m in Sources */,
+				F84E9D0A27A62C3500CFF53C /* DittoApp_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F84E9CFD27A62C3500CFF53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F84E9CDF27A62C3200CFF53C /* DittoApp-ios */;
+			targetProxy = F84E9CFC27A62C3500CFF53C /* PBXContainerItemProxy */;
+		};
+		F84E9D0727A62C3500CFF53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F84E9CDF27A62C3200CFF53C /* DittoApp-ios */;
+			targetProxy = F84E9D0627A62C3500CFF53C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F84E9CEC27A62C3200CFF53C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84E9CED27A62C3200CFF53C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F84E9CF127A62C3400CFF53C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84E9CF227A62C3400CFF53C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F84E9D0D27A62C3500CFF53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F84E9D0E27A62C3500CFF53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F84E9D1027A62C3500CFF53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82DKD7HN54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DittoApp-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kp.workforce.DittoApp-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F84E9D1127A62C3500CFF53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82DKD7HN54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DittoApp-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kp.workforce.DittoApp-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F84E9D1327A62C3500CFF53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82DKD7HN54;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kp.workforce.DittoApp-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DittoApp-ios.app/DittoApp-ios";
+			};
+			name = Debug;
+		};
+		F84E9D1427A62C3500CFF53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82DKD7HN54;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kp.workforce.DittoApp-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DittoApp-ios.app/DittoApp-ios";
+			};
+			name = Release;
+		};
+		F84E9D1627A62C3500CFF53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82DKD7HN54;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kp.workforce.DittoApp-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DittoApp-ios";
+			};
+			name = Debug;
+		};
+		F84E9D1727A62C3500CFF53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82DKD7HN54;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kp.workforce.DittoApp-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DittoApp-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F84E9CDB27A62C3200CFF53C /* Build configuration list for PBXProject "DittoApp-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84E9D0D27A62C3500CFF53C /* Debug */,
+				F84E9D0E27A62C3500CFF53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84E9D0F27A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84E9D1027A62C3500CFF53C /* Debug */,
+				F84E9D1127A62C3500CFF53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84E9D1227A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84E9D1327A62C3500CFF53C /* Debug */,
+				F84E9D1427A62C3500CFF53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84E9D1527A62C3500CFF53C /* Build configuration list for PBXNativeTarget "DittoApp-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84E9D1627A62C3500CFF53C /* Debug */,
+				F84E9D1727A62C3500CFF53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F84E9CD827A62C3200CFF53C /* Project object */;
+}
