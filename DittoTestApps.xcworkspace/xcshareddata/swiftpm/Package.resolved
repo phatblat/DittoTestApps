@@ -8,6 +8,15 @@
         "revision" : "fecfc5d95abef1d04aa966ce156a11d97809788a",
         "version" : "1.1.0"
       }
+    },
+    {
+      "identity" : "dittoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/getditto/DittoSwift",
+      "state" : {
+        "revision" : "3e8583ac8f746e34393e6c5342c1f987b56b8572",
+        "version" : "1.1.0"
+      }
     }
   ],
   "version" : 2
