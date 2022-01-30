@@ -13,8 +13,7 @@
 .swiftpm/
 .vscode/
 Carthage/
-DittoApp-ios/Config.xcconfig
-DittoApp-ios/DittoApp-ios/Config.xcconfig
+Config.xcconfig
 Pods/
 bin/
 build/

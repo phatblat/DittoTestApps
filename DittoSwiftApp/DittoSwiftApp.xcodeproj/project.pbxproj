@@ -44,6 +44,7 @@
 		F84E9D3F27A6F98100CFF53C /* DittoSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DittoSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84E9D4327A6F98100CFF53C /* DittoSwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DittoSwiftAppUITests.swift; sourceTree = "<group>"; };
 		F84E9D4527A6F98100CFF53C /* DittoSwiftAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DittoSwiftAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F84E9D5327A6FBDB00CFF53C /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Config.xcconfig; path = ../../Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		F84E9D2727A6F97F00CFF53C /* DittoSwiftApp */ = {
 			isa = PBXGroup;
 			children = (
+				F84E9D5327A6FBDB00CFF53C /* Config.xcconfig */,
 				F84E9D2827A6F97F00CFF53C /* DittoSwiftAppApp.swift */,
 				F84E9D2A27A6F97F00CFF53C /* ContentView.swift */,
 				F84E9D2C27A6F98000CFF53C /* Assets.xcassets */,
@@ -297,6 +299,7 @@
 /* Begin XCBuildConfiguration section */
 		F84E9D4727A6F98100CFF53C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84E9D5327A6FBDB00CFF53C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -357,6 +360,7 @@
 		};
 		F84E9D4827A6F98100CFF53C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84E9D5327A6FBDB00CFF53C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

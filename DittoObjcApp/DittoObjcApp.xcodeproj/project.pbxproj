@@ -55,7 +55,7 @@
 		F84E9D0527A62C3500CFF53C /* DittoObjcAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DittoObjcAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84E9D0927A62C3500CFF53C /* DittoApp_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoApp_iosUITests.m; sourceTree = "<group>"; };
 		F84E9D0B27A62C3500CFF53C /* DittoApp_iosUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoApp_iosUITestsLaunchTests.m; sourceTree = "<group>"; };
-		F84E9D1B27A6376A00CFF53C /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		F84E9D5227A6FB7E00CFF53C /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Config.xcconfig; path = ../../Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +107,10 @@
 		F84E9CE227A62C3200CFF53C /* DittoObjcApp-ios */ = {
 			isa = PBXGroup;
 			children = (
+				F84E9D5227A6FB7E00CFF53C /* Config.xcconfig */,
 				F84E9CE327A62C3200CFF53C /* AppDelegate.h */,
 				F84E9CE427A62C3200CFF53C /* AppDelegate.m */,
 				F84E9CEF27A62C3400CFF53C /* Assets.xcassets */,
-				F84E9D1B27A6376A00CFF53C /* Config.xcconfig */,
 				F84E9CF427A62C3400CFF53C /* Info.plist */,
 				F84E9CF127A62C3400CFF53C /* LaunchScreen.storyboard */,
 				F84E9CF527A62C3400CFF53C /* main.m */,
@@ -337,7 +337,7 @@
 /* Begin XCBuildConfiguration section */
 		F84E9D0D27A62C3500CFF53C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F84E9D1B27A6376A00CFF53C /* Config.xcconfig */;
+			baseConfigurationReference = F84E9D5227A6FB7E00CFF53C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -396,7 +396,7 @@
 		};
 		F84E9D0E27A62C3500CFF53C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F84E9D1B27A6376A00CFF53C /* Config.xcconfig */;
+			baseConfigurationReference = F84E9D5227A6FB7E00CFF53C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
