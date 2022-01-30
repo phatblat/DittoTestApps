@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct DittoSwiftApp: App {
-    @ObservedObject var dittoPublisher = DittoPublisher()
+    let dittoPublisher = DittoPublisher()
 
     var body: some Scene {
         WindowGroup {
