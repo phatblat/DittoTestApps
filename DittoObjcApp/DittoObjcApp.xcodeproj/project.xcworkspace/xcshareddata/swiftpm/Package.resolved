@@ -1,14 +1,16 @@
 {
-  "pins" : [
-    {
-      "identity" : "dittoobjc",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/getditto/DittoObjC",
-      "state" : {
-        "revision" : "fecfc5d95abef1d04aa966ce156a11d97809788a",
-        "version" : "1.1.0"
+  "object": {
+    "pins": [
+      {
+        "package": "DittoSwift",
+        "repositoryURL": "https://github.com/getditto/DittoSwift",
+        "state": {
+          "branch": null,
+          "revision": "546801b9c78742a84f9d3656cb77dfd9aa3a092c",
+          "version": "1.0.19"
+        }
       }
-    }
-  ],
-  "version" : 2
+    ]
+  },
+  "version": 1
 }
