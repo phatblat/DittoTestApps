@@ -38,10 +38,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "ditto-test"
+name = "ditto-test-app"
 version = "0.1.0"
 dependencies = [
  "dittolive-ditto",
+ "dotenv",
+ "serde_json",
 ]
 
 [[package]]
