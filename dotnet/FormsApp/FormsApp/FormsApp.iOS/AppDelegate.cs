@@ -1,9 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using Foundation;
+using DittoSDK;
+using Ditto.Transports;
 using UIKit;
+using Foundation;
+using System;
 
 namespace FormsApp.iOS
 {
@@ -25,8 +24,23 @@ namespace FormsApp.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            NSError? error;
+            NSFileManager fileManager = new NSFileManager();
+            NSUrl url = fileManager.GetUrl(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomain.User, null, true, out error);
+            if (error != null)
+            {
+                Console.WriteLine($"Error creating ditto directory: {error.LocalizedDescription}");
+            }
+            url.Append("ditto", true);
+
+            string appId = "";
+            string workingDir = url.Path;
+
+            DittoIdentity identity = DittoIdentity.OfflinePlayground(appID: appId, workingDir: workingDir);
+
+            var ditto = new DittoSDK.Ditto(identity, workingDir);
+
             return base.FinishedLaunching(app, options);
         }
     }
 }
-
