@@ -15,9 +15,11 @@
 .vscode/
 Carthage/
 Config.xcconfig
+Debug/
 Pods/
 bin/
 build/
 gradlew.bat
+obj/
 target/
 xcuserdata
