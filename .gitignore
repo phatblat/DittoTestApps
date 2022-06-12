@@ -12,6 +12,7 @@
 .rubygems/
 .settings
 .swiftpm/
+.vs/
 .vscode/
 Carthage/
 Config.xcconfig
