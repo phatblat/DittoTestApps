@@ -17,6 +17,8 @@ Carthage/
 Config.xcconfig
 Debug/
 Pods/
+Resource.designer.cs
+UserPrefs.xml
 bin/
 build/
 gradlew.bat
