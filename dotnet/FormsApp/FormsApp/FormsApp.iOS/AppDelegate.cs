@@ -1,5 +1,4 @@
 using DittoSDK;
-using Ditto.Transports;
 using UIKit;
 using Foundation;
 using System;
@@ -21,7 +20,11 @@ namespace FormsApp.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            global::Xamarin.Forms.Forms.Init();
+
+            DittoLogger.SetLoggingEnabled(true);
+            DittoLogger.SetMinimumLogLevel(DittoLogLevel.Verbose);
+
+            Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
             NSError? error;
@@ -38,7 +41,8 @@ namespace FormsApp.iOS
 
             DittoIdentity identity = DittoIdentity.OfflinePlayground(appID: appId, workingDir: workingDir);
 
-            var ditto = new DittoSDK.Ditto(identity, workingDir);
+            var ditto = new Ditto(identity, workingDir);
+            ditto.TryStartSync();
 
             return base.FinishedLaunching(app, options);
         }
