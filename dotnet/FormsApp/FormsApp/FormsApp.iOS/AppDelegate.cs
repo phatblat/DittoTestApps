@@ -32,12 +32,17 @@ namespace FormsApp.iOS
             NSUrl url = fileManager.GetUrl(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomain.User, null, true, out error);
             if (error != null)
             {
-                Console.WriteLine($"Error creating ditto directory: {error.LocalizedDescription}");
+                Console.WriteLine($"Error creating Documents directory: {error.LocalizedDescription}");
             }
-            url.Append("ditto", true);
+            url = url.Append("ditto", true);
 
             string appId = "";
             string workingDir = url.Path;
+            fileManager.CreateDirectory(url, true, null, out error);
+            if (error != null)
+            {
+                Console.WriteLine($"Error creating ditto directory: {error.LocalizedDescription}");
+            }
 
             DittoIdentity identity = DittoIdentity.OfflinePlayground(appID: appId, workingDir: workingDir);
 
