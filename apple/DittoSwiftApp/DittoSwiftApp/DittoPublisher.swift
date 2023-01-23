@@ -17,9 +17,17 @@ class DittoPublisher: Publisher {
     init() {
         let identity: DittoIdentity = .onlineWithAuthentication(appID: "46e08559-4388-4896-ba19-c1573509bb29", authenticationDelegate: self)
         ditto = Ditto(identity: identity)
-        ditto?.auth?.logout()
-        ditto = nil
-        ditto = Ditto(identity: identity)
+        debugPrint("persistenceDirectory: \(ditto!.persistenceDirectory)")
+ditto?.auth?.logout { ditto in
+    let auth_dir = ditto.persistenceDirectory.appending(component: "ditto_auth")
+    do {
+        try FileManager.default.removeItem(at: auth_dir)
+    } catch {
+        debugPrint("Failed to remove directory: \(auth_dir.path). Error: \(error.localizedDescription)")
+    }
+}
+ditto = nil
+ditto = Ditto(identity: identity)
         try! ditto?.startSync()
     }
 
