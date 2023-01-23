@@ -17,7 +17,6 @@
 		F84E9D0027A62C3500CFF53C /* DittoApp_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E9CFF27A62C3500CFF53C /* DittoApp_iosTests.m */; };
 		F84E9D0A27A62C3500CFF53C /* DittoApp_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E9D0927A62C3500CFF53C /* DittoApp_iosUITests.m */; };
 		F84E9D0C27A62C3500CFF53C /* DittoApp_iosUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E9D0B27A62C3500CFF53C /* DittoApp_iosUITestsLaunchTests.m */; };
-		F8CF254528578EAE00E16CE4 /* DittoObjC in Frameworks */ = {isa = PBXBuildFile; productRef = F8CF254428578EAE00E16CE4 /* DittoObjC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8CF254528578EAE00E16CE4 /* DittoObjC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +163,6 @@
 			);
 			name = DittoObjcApp;
 			packageProductDependencies = (
-				F8CF254428578EAE00E16CE4 /* DittoObjC */,
 			);
 			productName = "DittoApp-ios";
 			productReference = F84E9CE027A62C3200CFF53C /* DittoObjcApp.app */;
@@ -239,7 +236,6 @@
 			);
 			mainGroup = F84E9CD727A62C3200CFF53C;
 			packageReferences = (
-				F8CF254328578EAE00E16CE4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */,
 			);
 			productRefGroup = F84E9CE127A62C3200CFF53C /* Products */;
 			projectDirPath = "";
@@ -613,25 +609,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F8CF254328578EAE00E16CE4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/getditto/DittoSwiftPackage";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F8CF254428578EAE00E16CE4 /* DittoObjC */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F8CF254328578EAE00E16CE4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */;
-			productName = DittoObjC;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F84E9CD827A62C3200CFF53C /* Project object */;
 }

@@ -16,8 +16,7 @@
 		F84E9D4627A6F98100CFF53C /* DittoSwiftAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84E9D4527A6F98100CFF53C /* DittoSwiftAppUITestsLaunchTests.swift */; };
 		F84E9D5527A6FF7100CFF53C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84E9D5427A6FF7100CFF53C /* MainView.swift */; };
 		F84E9D5727A6FFDF00CFF53C /* DittoPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84E9D5627A6FFDF00CFF53C /* DittoPublisher.swift */; };
-		F8CF254828578FFB00E16CE4 /* DittoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F8CF254728578FFB00E16CE4 /* DittoSwift */; };
-		F8CF254A2857900000E16CE4 /* DittoObjC in Frameworks */ = {isa = PBXBuildFile; productRef = F8CF25492857900000E16CE4 /* DittoObjC */; };
+		F87B9B49297F4968006180E3 /* DittoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F87B9B48297F4968006180E3 /* DittoSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8CF254828578FFB00E16CE4 /* DittoSwift in Frameworks */,
-				F8CF254A2857900000E16CE4 /* DittoObjC in Frameworks */,
+				F87B9B49297F4968006180E3 /* DittoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +172,7 @@
 			);
 			name = DittoSwiftApp;
 			packageProductDependencies = (
-				F8CF254728578FFB00E16CE4 /* DittoSwift */,
-				F8CF25492857900000E16CE4 /* DittoObjC */,
+				F87B9B48297F4968006180E3 /* DittoSwift */,
 			);
 			productName = DittoSwiftApp;
 			productReference = F84E9D2527A6F97F00CFF53C /* DittoSwiftApp.app */;
@@ -250,7 +247,7 @@
 			);
 			mainGroup = F84E9D1C27A6F97F00CFF53C;
 			packageReferences = (
-				F8CF254228578E2900E16CE4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */,
+				F87B9B47297F4968006180E3 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */,
 			);
 			productRefGroup = F84E9D2627A6F97F00CFF53C /* Products */;
 			projectDirPath = "";
@@ -630,7 +627,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F8CF254228578E2900E16CE4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */ = {
+		F87B9B47297F4968006180E3 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/getditto/DittoSwiftPackage";
 			requirement = {
@@ -641,15 +638,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F8CF254728578FFB00E16CE4 /* DittoSwift */ = {
+		F87B9B48297F4968006180E3 /* DittoSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F8CF254228578E2900E16CE4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */;
+			package = F87B9B47297F4968006180E3 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */;
 			productName = DittoSwift;
-		};
-		F8CF25492857900000E16CE4 /* DittoObjC */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F8CF254228578E2900E16CE4 /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */;
-			productName = DittoObjC;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
