@@ -12,10 +12,11 @@ class DittoPublisher: Publisher {
     typealias Output = Ditto
     typealias Failure = Error
 
+    var ditto: Ditto?
+
     init() {
-        let ditto = Ditto()
-//        try! ditto.setLicenseToken("my license token")
-        try! ditto.tryStartSync()
+        ditto = Ditto()
+        try! ditto?.startSync()
     }
 
 
