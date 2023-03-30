@@ -88,7 +88,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     // ditto.set_license_from_env(&String::from(license))?;
     ditto.set_license_from_env("DITTO_LICENSE")?;
-    ditto.try_start_sync()?;
+    ditto.start_sync()?;
 
     // ::log::debug!("Ditto Cars App started!");
 
@@ -139,7 +139,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     // downgrade our logging output before running the query
     Ditto::set_minimum_log_level(CLogLevel::Debug);
     // Find and report on all cars
-    let _lq = collection.find_all().observe(event_handler);
+    let _lq = collection.find_all().observe_local(event_handler);
     for car_cbor in rx.iter() {
         let car_str = serde_json::to_string(&car_cbor).unwrap();
         println!("{}", &car_str);
