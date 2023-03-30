@@ -6,6 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-dittolive-ditto = "1.1.1"
+dittolive-ditto = "3.0.5"
 dotenv = "0.15.0"
 serde_json = "1.0.48"
